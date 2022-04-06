@@ -92,11 +92,42 @@ section .conteudo2 h1,h3,p{
 
 section .conteudo3{
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
-    max-width:1000px;
+    margin-top:60px;
 }
 
+section .conteudo3 img{
+    max-width:1000px;
+    padding-top:20px;
+}
+
+section .conteudo3 h5{
+    color:red;
+    font-size:15px;
+    border-radius:5px solid red;
+}
+
+section .conteudo3 h1,h2,h5{
+    max-width:1000px;
+    padding-top:20px;
+}
+
+/*section conteudo 4*/
+
+.conteudo4{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:40px;
+}
+
+.titulos{
+    margin-bottom:40px;
+    justify-content:flex-start;
+    border:1px solid blue;
+}
 
 
