@@ -116,18 +116,96 @@ section .conteudo3 h1,h2,h5{
 
 /*section conteudo 4*/
 
-.conteudo4{
+.cards{
     display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin:50px 25px;
+}
+
+.cards-secundarios{
+    margin:30px;
+    min-width:600px;
+    min-height:125px;
+    border:1px solid rgba(175, 173, 173, 0.753);
+    border-radius:20px;
+    padding:20px;
+}
+
+.titulo-secundario{
+    display:flex;
+    flex-direction: column;
+    padding-bottom:20px;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.descricao span{
+    padding-left:20px;
+}
+
+/*ìnicio section conteudo 5*/
+section .conteudo5{
+    margin:80px auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
     flex-direction:column;
+    background:rgba(196, 25, 25, 0.03);
+}
+
+section .conteudo5 h5{
+    color:#8E2424;
+    margin-bottom:20px;
+}
+
+section .conteudo5 h1{
+    color:black;
+    margin-bottom:20px;
+}
+
+section .conteudo5 p{
+    margin-top:10px;
+    font-weight: bold;
+}
+
+section .conteudo5 span{
+    color:gray;
+}
+
+/*Footer*/
+
+.conteudo6{
+    display:flex;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
-    margin:40px;
+    background:#F9FAFB;
 }
 
-.titulos{
-    margin-bottom:40px;
-    justify-content:flex-start;
-    border:1px solid blue;
+.conteudo6 h1{
+    padding:20px;
 }
 
+.conteudo6 span{
+    padding:20px;
+    color:gray;
+}
+
+.botoes{
+    display:flex;
+    justify-content: space-between;
+}
+
+.botoes input{
+    width:250px;
+}
+
+.botoes button{
+    border-radius:5px;
+    background:#8E2424;
+    padding:8px;
+    color:white;
+    margin-left:10px;
+}
 
